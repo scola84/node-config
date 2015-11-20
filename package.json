@@ -1,0 +1,16 @@
+{
+  "name": "scola-config",
+  "version": "1.0.0",
+  "description": "Configuration management",
+  "keywords": ["config", "configuration"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scola84/node-config.git"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "index.js"
+}
