@@ -2,15 +2,29 @@
   "name": "scola-config",
   "version": "1.0.0",
   "description": "Configuration Management",
-  "keywords": ["configuration", "management"],
+  "keywords": [
+    "configuration",
+    "management"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scola84/node-config.git"
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash.get": "^3.7.0"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
 }
