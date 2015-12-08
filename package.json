@@ -1,5 +1,5 @@
 {
-  "name": "scola-config",
+  "name": "@scola/config",
   "version": "1.0.0",
   "description": "Configuration Management",
   "keywords": [
