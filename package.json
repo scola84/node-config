@@ -1,6 +1,6 @@
 {
   "name": "@scola/config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configuration Management",
   "keywords": [
     "configuration",
@@ -19,7 +19,8 @@
   "browserify": {
     "transform": [
       [
-        "babelify", {
+        "babelify",
+        {
           "presets": [
             "es2015"
           ]
