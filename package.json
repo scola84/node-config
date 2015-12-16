@@ -11,7 +11,8 @@
     "url": "git+https://github.com/scola84/node-config.git"
   },
   "dependencies": {
-    "lodash.get": "^3.7.0"
+    "lodash.get": "^3.7.0",
+    "lodash.merge": "^3.3.2"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
